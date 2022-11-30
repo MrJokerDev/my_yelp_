@@ -7,9 +7,6 @@ export default function YelpNavbar({ signOut }) {
   return (
     <Navbar collapseOnSelect expand="lg" className="navbar" variant="dark">
       <Container>
-        <Navbar.Brand bg="light" fixed="bottom">
-          Restaurant
-        </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
